@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-electric-objects-eo1",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Electric Objects EO1",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reinierlakhan/homebridge-canary.git"
+  },
+  "bugs": {
+    "url": "http://github.com/reinierlakhan/homebridge-canary/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "electric-objects": "git+https://github.com/katiebot/electric-objects.git",
+    "memoizee": "^0.4.14",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "tough-cookie": "^2.4.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Electric Objects EO1",
+  "accessory": "Electric Objects",
+  "model": "EO1",
+  "serial": "<serial>",
+  "username": "<username>",
+  "password": "<password>",
+  "pollingInterval": 300
+}
