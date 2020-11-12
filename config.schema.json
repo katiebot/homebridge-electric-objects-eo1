@@ -9,7 +9,7 @@
                 "type": "string",
                 "required": true,
                 "default": "Electric Objects EO1",
-                "description": "The name that will appear in your Homebridge log."
+                "description": "The name that will appear in your Homebridge log, must match the name of your EO1"
             },
             "accessory": {
                 "title": "Accessory",

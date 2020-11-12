@@ -30,12 +30,12 @@ EO1.prototype.getBacklightStateWithCallback = function (callback) {
 EO1.prototype.getBacklightState = async function () {
   let devices = await this.backend.devices()
   for (var i in devices) {
-    if ((devices[i].name === this.model)) {
+    if ((devices[i].name === this.name)) {
       return Promise.resolve(devices[i].backlight_state)
     }
   }
 
-  return Promise.reject(new Error(`Device with name ${this.model} not found`))
+  return Promise.reject(new Error(`Device with name ${this.name} not found`))
 }
 
 EO1.prototype.setBacklightStateWithCallback = function (state, callback) {
@@ -50,7 +50,7 @@ EO1.prototype.setBacklightStateWithCallback = function (state, callback) {
 EO1.prototype.setBacklightState = async function (state) {
   let devices = await this.backend.devices()
   for (var i in devices) {
-    if ((devices[i].name === this.model)) {
+    if ((devices[i].name === this.name)) {
       if (state == true) {
         this.log(`Setting backlight state to on for device ID ${devices[i].id}`)
         await this.backend.turnOn(devices[i].id);

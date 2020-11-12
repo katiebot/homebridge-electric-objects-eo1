@@ -2,7 +2,7 @@
 Homebridge plugin for Electric Objects EO1
 
 ## Installation
-`sudo npm install -g --unsafe-perm homebridge-electric-objects-eo1
+`sudo npm install -g --unsafe-perm homebridge-electric-objects-eo1`
 
 ## Configuration
 Add to the accessories in your `config.json`

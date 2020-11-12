@@ -1,8 +1,8 @@
 {
   "name": "homebridge-electric-objects-eo1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Homebridge plugin for Electric Objects EO1",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "homebridge-plugin"
   ],
