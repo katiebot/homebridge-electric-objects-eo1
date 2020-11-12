@@ -8,10 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/reinierlakhan/homebridge-canary.git"
+    "url": "git://github.com/katiebot/homebridge-electric-objects-eo1.git"
   },
   "bugs": {
-    "url": "http://github.com/reinierlakhan/homebridge-canary/issues"
+    "url": "http://github.com/katiebot/homebridge-electric-objects-eo1/issues"
   },
   "engines": {
     "node": ">=0.12.0",
