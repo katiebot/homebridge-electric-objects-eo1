@@ -17,3 +17,6 @@ Add to the accessories in your `config.json`
   "pollingInterval": 300
 }
 ```
+
+## Credits
+Uses a modified version of [jed/electric-objects](https://github.com/jed/electric-objects) for authentication.
